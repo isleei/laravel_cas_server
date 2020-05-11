@@ -20,7 +20,7 @@ class XmlAuthenticationFailureResponse extends BaseXmlResponse implements Authen
     public function setFailure($code, $description)
     {
         $this->removeByXPath($this->node, 'cas:authenticationFailure');
-        $authNode = $this->node->addChild('cas:authenticationFailure', $description);
+        $authNode = $this->node->addChild('cas:authenticationFailure', htmlspecialchars($description));
         $authNode->addAttribute('code', $code);
 
         return $this;

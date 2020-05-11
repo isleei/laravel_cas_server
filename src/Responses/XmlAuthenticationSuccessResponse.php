@@ -26,7 +26,7 @@ class XmlAuthenticationSuccessResponse extends BaseXmlResponse implements Authen
     {
         $authNode = $this->getAuthNode();
         $this->removeByXPath($authNode, 'cas:user');
-        $authNode->addChild('cas:user', $user);
+        $authNode->addChild('cas:user', htmlspecialchars($user));
 
         return $this;
     }
@@ -37,7 +37,7 @@ class XmlAuthenticationSuccessResponse extends BaseXmlResponse implements Authen
         $this->removeByXPath($authNode, 'cas:proxies');
         $proxiesNode = $authNode->addChild('cas:proxies');
         foreach ($proxies as $proxy) {
-            $proxiesNode->addChild('cas:proxy', $proxy);
+            $proxiesNode->addChild('cas:proxy', htmlspecialchars($proxy));
         }
 
         return $this;
@@ -53,7 +53,7 @@ class XmlAuthenticationSuccessResponse extends BaseXmlResponse implements Authen
             foreach($valueArr as $v){
                 $str = $this->stringify($v);
                 if (is_string($str)) {
-                    $attributesNode->addChild('cas:'.$key, $str);
+                    $attributesNode->addChild('cas:'.$key, htmlspecialchars($str));
                 }
             }
         }
