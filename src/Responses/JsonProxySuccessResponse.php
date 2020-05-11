@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: Isleei
  * Date: 2016/10/25
  * Time: 18:19
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\ProxySuccessResponse;
+use Isleei\CAS\Contracts\Responses\ProxySuccessResponse;
 
 class JsonProxySuccessResponse extends BaseJsonResponse implements ProxySuccessResponse
 {

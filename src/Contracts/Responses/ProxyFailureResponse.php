@@ -6,7 +6,7 @@
  * Time: 17:48
  */
 
-namespace Leo108\CAS\Contracts\Responses;
+namespace Isleei\CAS\Contracts\Responses;
 
 interface ProxyFailureResponse extends BaseResponse
 {

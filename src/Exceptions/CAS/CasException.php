@@ -6,7 +6,7 @@
  * Time: 18:05
  */
 
-namespace Leo108\CAS\Exceptions\CAS;
+namespace Isleei\CAS\Exceptions\CAS;
 
 class CasException extends \Exception
 {

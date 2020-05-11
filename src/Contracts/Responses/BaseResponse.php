@@ -6,7 +6,7 @@
  * Time: 16:20
  */
 
-namespace Leo108\CAS\Contracts\Responses;
+namespace Isleei\CAS\Contracts\Responses;
 
 use Symfony\Component\HttpFoundation\Response;
 

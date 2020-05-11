@@ -6,9 +6,9 @@
  * Time: 18:19
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\ProxySuccessResponse;
+use Isleei\CAS\Contracts\Responses\ProxySuccessResponse;
 use SimpleXMLElement;
 
 class XmlProxySuccessResponse extends BaseXmlResponse implements ProxySuccessResponse

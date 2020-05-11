@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: leo108
+ * User: Isleei
  * Date: 2016/10/23
  * Time: 16:23
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\AuthenticationFailureResponse;
+use Isleei\CAS\Contracts\Responses\AuthenticationFailureResponse;
 
 class JsonAuthenticationFailureResponse extends BaseJsonResponse implements AuthenticationFailureResponse
 {

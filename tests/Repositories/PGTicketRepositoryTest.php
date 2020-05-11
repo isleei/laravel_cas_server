@@ -6,16 +6,16 @@
  * Time: 21:39
  */
 
-namespace Leo108\CAS\Repositories;
+namespace Isleei\CAS\Repositories;
 
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Leo108\CAS\Contracts\Models\UserModel;
-use Leo108\CAS\Exceptions\CAS\CasException;
-use Leo108\CAS\Models\PGTicket;
-use Leo108\CAS\Models\Service;
-use Leo108\CAS\Services\TicketGenerator;
+use Isleei\CAS\Contracts\Models\UserModel;
+use Isleei\CAS\Exceptions\CAS\CasException;
+use Isleei\CAS\Models\PGTicket;
+use Isleei\CAS\Models\Service;
+use Isleei\CAS\Services\TicketGenerator;
 use Mockery;
 use TestCase;
 

@@ -6,15 +6,15 @@
  * Time: 16:23
  */
 
-namespace Leo108\CAS\Models;
+namespace Isleei\CAS\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use Leo108\CAS\Contracts\Models\UserModel;
+use Isleei\CAS\Contracts\Models\UserModel;
 
 /**
  * Class PGTicket
- * @package Leo108\CAS\Models
+ * @package Isleei\CAS\Models
  *
  * @property integer   $id
  * @property string    $ticket

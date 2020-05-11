@@ -6,7 +6,7 @@
  * Time: 11:25
  */
 
-namespace Leo108\CAS;
+namespace Isleei\CAS;
 
 /**
  * @param string $name

@@ -6,10 +6,10 @@
  * Time: 20:13
  */
 
-namespace Leo108\CAS\Repositories;
+namespace Isleei\CAS\Repositories;
 
-use Leo108\CAS\Models\Service;
-use Leo108\CAS\Models\ServiceHost;
+use Isleei\CAS\Models\Service;
+use Isleei\CAS\Models\ServiceHost;
 
 class ServiceRepository
 {

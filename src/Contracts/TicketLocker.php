@@ -6,7 +6,7 @@
  * Time: 12:40
  */
 
-namespace Leo108\CAS\Contracts;
+namespace Isleei\CAS\Contracts;
 
 interface TicketLocker
 {

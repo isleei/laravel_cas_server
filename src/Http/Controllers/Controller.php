@@ -1,6 +1,6 @@
 <?php
 
-namespace Leo108\CAS\Http\Controllers;
+namespace Isleei\CAS\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

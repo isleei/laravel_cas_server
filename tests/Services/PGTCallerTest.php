@@ -6,7 +6,7 @@
  * Time: 07:08
  */
 
-namespace Leo108\CAS\Services;
+namespace Isleei\CAS\Services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;

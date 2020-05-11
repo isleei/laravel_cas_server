@@ -6,18 +6,18 @@
  * Time: 14:50
  */
 
-namespace Leo108\CAS\Http\Controllers;
+namespace Isleei\CAS\Http\Controllers;
 
-use Leo108\CAS\Contracts\Interactions\UserLogin;
-use Leo108\CAS\Contracts\Models\UserModel;
-use Leo108\CAS\Events\CasUserLoginEvent;
-use Leo108\CAS\Events\CasUserLogoutEvent;
-use Leo108\CAS\Exceptions\CAS\CasException;
+use Isleei\CAS\Contracts\Interactions\UserLogin;
+use Isleei\CAS\Contracts\Models\UserModel;
+use Isleei\CAS\Events\CasUserLoginEvent;
+use Isleei\CAS\Events\CasUserLogoutEvent;
+use Isleei\CAS\Exceptions\CAS\CasException;
 use Illuminate\Http\Request;
-use Leo108\CAS\Repositories\PGTicketRepository;
-use Leo108\CAS\Repositories\ServiceRepository;
-use Leo108\CAS\Repositories\TicketRepository;
-use function Leo108\CAS\cas_route;
+use Isleei\CAS\Repositories\PGTicketRepository;
+use Isleei\CAS\Repositories\ServiceRepository;
+use Isleei\CAS\Repositories\TicketRepository;
+use function Isleei\CAS\cas_route;
 
 class SecurityController extends Controller
 {

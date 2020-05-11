@@ -1,5 +1,5 @@
 {
-    "name": "leo108/laravel_cas_server",
+    "name": "isleei/laravel_cas_server",
     "description": "A laravel package provides CAS server implementation",
     "type": "library",
     "license": "MIT",
@@ -7,12 +7,16 @@
         {
             "name": "leo108",
             "email": "leo108@qq.com"
+        },
+        {
+            "name": "slee",
+            "email": ""
         }
     ],
     "require": {
         "php": ">=7.0",
         "ext-dom": "*",
-        "illuminate/support": "5.5.*|5.6.*",
+        "illuminate/support": "5.*",
         "doctrine/dbal": "^2.5",
         "guzzlehttp/guzzle": "^6.2"
     },
@@ -35,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Leo108\\CAS\\CASServerServiceProvider"
+                "Isleei\\CAS\\CASServerServiceProvider"
             ]
         }
     }

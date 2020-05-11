@@ -6,7 +6,7 @@
  * Time: 15:54
  */
 
-namespace Leo108\CAS\Contracts\Responses;
+namespace Isleei\CAS\Contracts\Responses;
 
 interface AuthenticationSuccessResponse extends BaseResponse
 {

@@ -6,7 +6,7 @@
  * Time: 15:10
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
 use Illuminate\Support\Str;
 use SimpleXMLElement;

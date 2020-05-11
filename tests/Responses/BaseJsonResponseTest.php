@@ -6,7 +6,7 @@
  * Time: 15:17
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
 use Symfony\Component\HttpFoundation\Response;
 use TestCase;

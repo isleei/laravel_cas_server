@@ -6,7 +6,7 @@
  * Time: 16:19
  */
 
-namespace Leo108\CAS\Contracts\Responses;
+namespace Isleei\CAS\Contracts\Responses;
 
 interface AuthenticationFailureResponse extends BaseResponse
 {

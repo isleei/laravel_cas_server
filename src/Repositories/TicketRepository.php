@@ -6,13 +6,13 @@
  * Time: 20:19
  */
 
-namespace Leo108\CAS\Repositories;
+namespace Isleei\CAS\Repositories;
 
 use Carbon\Carbon;
-use Leo108\CAS\Contracts\Models\UserModel;
-use Leo108\CAS\Exceptions\CAS\CasException;
-use Leo108\CAS\Models\Ticket;
-use Leo108\CAS\Services\TicketGenerator;
+use Isleei\CAS\Contracts\Models\UserModel;
+use Isleei\CAS\Exceptions\CAS\CasException;
+use Isleei\CAS\Models\Ticket;
+use Isleei\CAS\Services\TicketGenerator;
 
 class TicketRepository
 {

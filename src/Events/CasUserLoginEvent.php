@@ -1,10 +1,10 @@
 <?php
 
-namespace Leo108\CAS\Events;
+namespace Isleei\CAS\Events;
 
 use Illuminate\Http\Request;
 use Illuminate\Queue\SerializesModels;
-use Leo108\CAS\Contracts\Models\UserModel;
+use Isleei\CAS\Contracts\Models\UserModel;
 
 class CasUserLoginEvent extends Event
 {

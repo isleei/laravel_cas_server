@@ -6,7 +6,7 @@
  * Time: 13:29
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
 use TestCase;
 

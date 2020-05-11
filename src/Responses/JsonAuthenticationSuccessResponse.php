@@ -6,9 +6,9 @@
  * Time: 15:57
  */
 
-namespace Leo108\CAS\Responses;
+namespace Isleei\CAS\Responses;
 
-use Leo108\CAS\Contracts\Responses\AuthenticationSuccessResponse;
+use Isleei\CAS\Contracts\Responses\AuthenticationSuccessResponse;
 
 class JsonAuthenticationSuccessResponse extends BaseJsonResponse implements AuthenticationSuccessResponse
 {
