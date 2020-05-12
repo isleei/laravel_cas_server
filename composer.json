@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Leo108\\CAS\\": "src"
+            "Isleei\\CAS\\": "src"
         }
     },
     "autoload-dev": {
