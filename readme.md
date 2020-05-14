@@ -16,14 +16,14 @@ This package works for Laravel 5.5/5.6 . Please check 2.x branch if you are usin
 
 ## Installation && Usage
 
-- `composer require leo108/laravel_cas_server`
-- <del>add `Leo108\CAS\CASServerServiceProvider::class` to the `providers` field in `config/app.php`</del>
-- `php artisan vendor:publish --provider="Leo108\CAS\CASServerServiceProvider"`
+- `composer require Isleei/laravel_cas_server`
+- <del>add `Isleei\CAS\CASServerServiceProvider::class` to the `providers` field in `config/app.php`</del>
+- `php artisan vendor:publish --provider="Isleei\CAS\CASServerServiceProvider"`
 - modify `config/cas.php`, fields in config file are all self-described
 - `php artisan migrate`
-- make your `App\User` implement `Leo108\CAS\Contracts\Models\UserModel`
-- create a class implements `Leo108\CAS\Contracts\TicketLocker`
-- create a class implements `Leo108\CAS\Contracts\Interactions\UserLogin`
+- make your `App\User` implement `Isleei\CAS\Contracts\Models\UserModel`
+- create a class implements `Isleei\CAS\Contracts\TicketLocker`
+- create a class implements `Isleei\CAS\Contracts\Interactions\UserLogin`
 - visit `http://your-domain/cas/login` to see the login page (assume that you didn't change the `router.prefix` value in `config/cas.php`)
 
 ## Example

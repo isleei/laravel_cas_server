@@ -9,7 +9,6 @@
 namespace Isleei\CAS;
 
 use Illuminate\Support\ServiceProvider;
-
 /**
  * Class CASServerServiceProvider
  * @package Isleei\CAS
