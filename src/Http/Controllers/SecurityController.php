@@ -8,6 +8,7 @@
 
 namespace Isleei\CAS\Http\Controllers;
 
+use App\Models\CompanyBill;
 use Isleei\CAS\Contracts\Interactions\UserLogin;
 use Isleei\CAS\Contracts\Models\UserModel;
 use Isleei\CAS\Events\CasUserLoginEvent;
@@ -108,6 +109,12 @@ class SecurityController extends Controller
     {
         event(new CasUserLoginEvent($request, $user));
         $serviceUrl = $request->get('service', '');
+        if (session('market_id') == 9 && !CompanyBill::where([
+                'company_id' => $user->company_id,
+                'state' => CompanyBill::ACCOUNT_PAID
+            ])->exists()){
+            $serviceUrl = url('home');
+        }
         if (!empty($serviceUrl)) {
             $query = parse_url($serviceUrl, PHP_URL_QUERY);
             try {
