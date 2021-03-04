@@ -178,9 +178,9 @@ class ValidateController extends Controller
                 throw new CasException(CasException::INVALID_TICKET, 'ticket is not valid');
             }
 
-            if ($record->service_url != $service) {
-                throw new CasException(CasException::INVALID_SERVICE, 'service is not valid');
-            }
+          //  if ($record->service_url != $service) {
+            //    throw new CasException(CasException::INVALID_SERVICE, 'service is not valid');
+            //}
         } catch (CasException $e) {
             //invalid ticket if error occur
             $record instanceof Ticket && $this->ticketRepository->invalidTicket($record);
